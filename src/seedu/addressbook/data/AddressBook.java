@@ -128,4 +128,11 @@ public class AddressBook {
                         && this.allPersons.equals(((AddressBook) other).allPersons)
                         && this.allTags.equals(((AddressBook) other).allTags));
     }
+
+    /**
+     * Sorts all persons in the address book by name in alphabetical order
+     */
+    public void sortAllPersons() {
+        allPersons.sort();
+    }
 }
