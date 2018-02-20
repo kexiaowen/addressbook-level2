@@ -51,7 +51,7 @@ public class UtilsTest {
         assertNotNull("a", "ab", "abc", "abcd");
 
         // only one null object
-        assertHasNull((Object) null);
+        assertHasNull((Object)null);
 
         // some null objects and some not null objects
         assertHasNull(null, "a", "b", null);
@@ -74,10 +74,10 @@ public class UtilsTest {
     }
 
     private void assertNotNull(Object... objects) {
-        assertFalse(Utils.isAnyNull(Arrays.asList(objects)));
+        assertFalse(Utils.isAnyNull(objects));
     }
 
     private void assertHasNull(Object... objects) {
-        assertTrue(Utils.isAnyNull(Arrays.asList(objects)));
+        assertTrue(Utils.isAnyNull(objects));
     }
 }
