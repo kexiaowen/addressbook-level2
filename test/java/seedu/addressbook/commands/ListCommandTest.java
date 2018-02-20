@@ -5,7 +5,8 @@ import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.person.ReadOnlyPerson;
 import seedu.addressbook.util.TypicalPersons;
 
-import java.util.*;
+
+import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
